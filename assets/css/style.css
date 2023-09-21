@@ -1,3 +1,16 @@
+/* Google fonts here*/
+
+/* Wildcard to prevent browser from using default*/
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
 body {
+    width: 100vw;
+    height: 100vh;
     background-color: pink;
 }
