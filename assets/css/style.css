@@ -27,7 +27,67 @@ h1 {
     text-align: center;
 }
 
-main {}
+main {
+    margin: auto;
+}
+
+.container {
+    background-color: white;
+    width: 350px;
+    height: 500px;
+}
+
+.welcome {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px 10px;
+}
+
+.how-to-play {
+    text-align: center;
+    padding: 10px;
+}
+
+.btn-how-to-play {
+    padding: 5px 10px;
+    background-color: lightgray;
+    font-size: 1rem;
+     font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+}
+
+.get-started {
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.player-name {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    padding: 20px;
+}
+
+.btn-level-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.level {
+    margin: 10px;
+    width: 80px;
+    font-family: inherit;
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    font-weight: bold;
+
+    background-color: lightgray;
+}
 
 footer {
     margin-top: auto;

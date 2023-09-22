@@ -25,8 +25,8 @@
         <div class="container">
             <p class="welcome">Welcome to the Picture Quiz!</p>
 
-            <div>
-                <button class="btn-hot-to-play">How to Play</button>
+            <div class="how-to-play">
+                <button class="btn-how-to-play">How to Play</button>
             </div>
 
             <p class="get-started">To get started, enter player's name
@@ -34,17 +34,17 @@
                 and select the level you wish to play
             </p>
 
-            <span class="player-name">
+            <div class="player-name">
                 <label for="name-field" class="name-label">Players Name</label>
                 <input id="name-field" type="text" name="player_name" placeholder="Enter here" required>
-            </span>
+            </div>
 
             <div class="btn-level-style">
-                <button class="easy-questions">Easy</button>
+                <button id="easy-questions" class="level">Easy</button>
 
-                <button class="medium-questions">Medium</button>
+                <button id="medium-questions" class="level">Medium</button>
 
-                <button class="easy-questions">Hard</button>
+                <button id="hard-questions" class="level">Hard</button>
             </div>
 
         </div>
