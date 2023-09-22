@@ -32,7 +32,7 @@ let easyQuestions = [
     {
         q: 5,
         img: "/assets/images/easy-questions/lightbulb.webp",
-        question: "Thee picture shows a light bulb, who was the first inventor to patent it?",
+        question: "This picture shows a light bulb, who was the first inventor to patent it?",
         correctAnswer: "Thomas Eddison",
         incorrectAnswers: ["Michael Light", "James Element", "Albert Einstien"],
     },
@@ -47,7 +47,7 @@ let easyQuestions = [
         q: 7,
         img: "/assets/images/easy-questions/mosalah.webp",
         question: "Which football team does Mo Salah currently play for?",
-        correctAnswer: "Liverpool"
+        correctAnswer: "Liverpool",
         incorrectAnswers: ["Manchester United", "Newcastle United", "Arsenal"]
     },
     {
@@ -67,7 +67,7 @@ let easyQuestions = [
     {
         q: 10,
         img: "/assets/images/easy-questions/sanfrancisco.webp",
-        question: "The picture shows the Golden Gate Bridge, do you know, in meters, how long it is?"
+        question: "The picture shows the Golden Gate Bridge, do you know, in meters, how long it is?",
         correctAnswer: "2737meters",
         incorrectAnswers: ["1503meters", "2212meters", "1778meters"],
     }
@@ -86,7 +86,7 @@ let mediumQuestions = [
         q: 12,
         img: "/assets/images/medium-questions/dohaskyline.jpg",
         question: "Where in the world does this skyline appear?",
-        correctAnswer: "Doha"
+        correctAnswer: "Doha",
         incorrectAnswers: ["Dubai", "China", "Italy"],
     },
     {
@@ -148,3 +148,75 @@ let mediumQuestions = [
 ]
 
 //These are the Hard Questions//
+let hardQuestions = [
+    {
+        q: 21,
+        img: "/assets/images/hard-questions/aliandninostatuegeorgia",
+        question: "The picture shows the Ali and Nino statue in Georgia, do you know, in meters, how tall it is?",
+        correctAnswer: "8meters",
+        incorrectAnswers: ["10meters", "12meters", "14meters"],
+    },
+    {
+        q: 22,
+        img: "/assets/images/hard-questions/chihuahuapuppy.jpg",
+        question: "Can you identify what breed of dog this is?",
+        correctAnswer: "Chihuahua",
+        incorrectAnswers: ["Visla", "Poodle", "Beagle"],
+    },
+    {
+        q: 23,
+        img: "/assets/images/hard-questions/cityofmexico.jpg",
+        question: "Where in the world is this skyline?",
+        correctAnswer: "Mexico",
+        incorrectAnswers: ["Amsterdam", "Bratislava", "Vancouver"],
+    },
+    {
+        q: 24,
+        img: "/assets/images/hard-questions/darboard.webp",
+        question: "If you add all the numbers on this board, what would be the total?",
+        correctAnswer: "210",
+        incorrectAnswers: ["180", "195", "205"],
+    },
+    {
+        q: 25,
+        img: "/assets/images/hard-questions/familia.jpg",
+        question: "What is the name of this building?",
+        correctAnswer: "Sagrada Familia",
+        incorrectAnswers: ["Casa Mila", "Casa Batlló", "Torre Glòries"],
+    },
+    {
+        q: 26,
+        img: "/assets/images/hard-questions/mobilephone.jpg",
+        question: "What year did the inventor of this device die?",
+        correctAnswer: "2011",
+        incorrectAnswers: ["2013", "2015", "2017"],
+    },
+    {
+        q: 27,
+        img: "/assets/images/hard-questions/pride.jpg",
+        question: "What does this flag symbolise?",
+        correctAnswer: "Pride",
+        incorrectAnswers: ["Confidence", "Prestige", "Honor"],
+    },
+    {
+        q: 28,
+        img: "/assets/images/hard-questions/scrabble.jpg",
+        question: "In this game, what is the highest score that can be achieved?",
+        correctAnswer: "1778 points",
+        incorrectAnswers: ["1011 points", "572 points", "333 points"],
+    },
+    {
+        q: 29,
+        img: "/assets/images/hard-questions/surfing.jpg",
+        question: "In this sport, what is the world record for the longest ride?",
+        correctAnswer: "3hours 55minutes",
+        incorrectAnswers: ["1hour 12minutes", "1hour 47minutes", "2hours 34mninutes"],
+    },
+    {
+        q: 30,
+        img: "/assets/images/hard-questions/toledocity.jpg",
+        question: "Where is the world is this skyline?",
+        correctAnswer: "Toledo City, Spain",
+        incorrectAnswers: ["Sevilla, Spain", "Barcelona, Spain", "Madrid, Spain"],
+    },
+]
