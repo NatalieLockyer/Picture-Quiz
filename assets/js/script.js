@@ -4,42 +4,42 @@ let easyQuestions = [
         q: 1,
         //Image to go at top of question//
         img: "/assets/images/easy-questions/cards.webp",
-        question: "How many cards are there in a standard pack of playing cards",
-        correctAnswer: "52",
-        incorrectAnswers: ["50", "48", "54"],
+        question: "In a game of BlackJack, what is the value of this card?",
+        correctAnswer: "2 or 11",
+        incorrectAnswers: ["1 or 7", "6 or 8", "4 or 9"],
     },
     {
         q: 2,
         img: "/assets/images/easy-questions/covidvaccine.webp",
-        question: "When was the first Covid vaccine invented?",
-        correctAnswer: "2020",
-        incorrectAnswers: ["2019", "2021", "2022"],
+        question: "In 2019, a virus know in short as Covid-19 spread around the world, what is its full name?",
+        correctAnswer: "Coronavirus",
+        incorrectAnswers: ["Fostersvirus", "Moretivirus", "Carlsbergvirus"],
     },
     {
         q: 3,
         img: "/assets/images/easy-questions/dubai.jpg",
-        question: "Where in the world would you find this statue?",
+        question: "Where in the world would you find this building?",
         correctAnswer: "Dubai",
         incorrectAnswers: ["Saudi Arabia", "Qatar", "Bahrain"],
     },
     {
         q: 4,
         img: "/assets/images/easy-questions/labradorpuppy.webp",
-        question: "Can you identify what type of dog is this?",
+        question: "Can you identify what breed of dog is this?",
         correctAnswer: "Labrador",
         incorrectAnswers: ["Poodle", "Spaniel", "Retriever"],
     },
     {
         q: 5,
         img: "/assets/images/easy-questions/lightbulb.webp",
-        question: "What year was the first light bulb invented?",
-        correctAnswer: "1879",
-        incorrectAnswers: ["1900", "1854", "1895"],
+        question: "Thee picture shows a light bulb, who was the first inventor to patent it?",
+        correctAnswer: "Thomas Eddison",
+        incorrectAnswers: ["Michael Light", "James Element", "Albert Einstien"],
     },
     {
         q: 6,
         img: "/assets/images/easy-questions/monopoly.jpg",
-        question: "In Monopoly, what is the most expensive property?",
+        question: "In this game, what is the most expensive property?",
         correctAnswer: "Mayfair",
         incorrectAnswers: ["Pall Mall", "Regents Road", "Old Kent Road"],
     },
@@ -67,11 +67,11 @@ let easyQuestions = [
     {
         q: 10,
         img: "/assets/images/easy-questions/sanfrancisco.webp",
-        question: "How long, in meters, is the Golden Gate Bridge?"
+        question: "The picture shows the Golden Gate Bridge, do you know, in meters, how long it is?"
         correctAnswer: "2737meters",
         incorrectAnswers: ["1503meters", "2212meters", "1778meters"],
     }
-    
+
 
 
 ]
