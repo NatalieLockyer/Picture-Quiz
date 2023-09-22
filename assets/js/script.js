@@ -1,4 +1,4 @@
-//This are the Questions for each category - staring with Easy Questions
+//These are the Questions for each category - starting with Easy Questions
 let easyQuestions = [
     {
         q: 1,
@@ -71,7 +71,80 @@ let easyQuestions = [
         correctAnswer: "2737meters",
         incorrectAnswers: ["1503meters", "2212meters", "1778meters"],
     }
-
-
-
 ]
+
+//These are the Medium Questions
+let mediumQuestions = [
+    {
+        q: 11,
+        img: "/assets/images/medium-questions/chess.webp",
+        question: "In this game, what is the term used to inform the other player that they are required to move their King?",
+        correctAnswer: "Check-Mate",
+        incorrectAnswers: ["Move-it", "Watch-it", "Chess-Mate"],
+    },
+    {
+        q: 12,
+        img: "/assets/images/medium-questions/dohaskyline.jpg",
+        question: "Where in the world does this skyline appear?",
+        correctAnswer: "Doha"
+        incorrectAnswers: ["Dubai", "China", "Italy"],
+    },
+    {
+        q: 13,
+        img: "/assets/images/medium-questions/flowerdomessingapore.jpg",
+        question: "This building is in Singapore, do you know the name of it?",
+        correctAnswer: "Flower Domes",
+        incorrectAnswers: ["Raffles Hotel", "Clarke Quay", "Lau Pa Sat"],
+    },
+    {
+        q: 14,
+        img: "/assets/images/medium-questions/icehockey.jpg",
+        question: "This picture shows a game of Ice Hockey, do you know when the first ever indoor game was played?",
+        correctAnswer: "1875",
+        incorrectAnswers: ["1854", "1890", "1903"],
+    },
+    {
+        q: 15,
+        img: "/assets/images/medium-questions/kualalumpurmalaysia.jpg",
+        question: "Where in the world does this building stand?",
+        correctAnswer: "Malaysia",
+        incorrectAnswers: ["Dubai", "Japan", "Singapore"],
+    },
+    {
+        q: 16,
+        img: "/assets/images/medium-questions/newyorkskyline",
+        question: "Where in the world does this skyline appear?",
+        correctAnswer: "New York",
+        incorrectAnswers: ["Las Vegas", "Sydney", "London"],
+    },
+    {
+        q: 17,
+        img: "/assets/images/medium-questions/pomeranianpuppy.jpg",
+        question: "Can you identify which breed of dog this is?",
+        correctAnswer: "Pomeranian",
+        incorrectAnswers: ["Pug", "German Shepard", "Huskey"],
+    },
+    {
+        q: 18,
+        img: "/assets/images/medium-questions/rubikscube.webp",
+        question: "The picture shows a Rubiks cube, do you know the world record, in seconds, for completing it?",
+        correctAnswer: "3.13seconds",
+        incorrectAnswers: ["1.33seconds", "2.15seconds", "3.03seconds"],
+    },
+    {
+        q: 19,
+        img: "/assets/images/medium-questions/tiktactoe.jpg",
+        question: "In which country did this game originate?",
+        correctAnswer: "Egypt",
+        incorrectAnswers: ["Poland", "Sweden", "Prague"],
+    },
+    {
+        q: 20,
+        img: "/assets/images/medium-questions/windfarm.webp",
+        question: "The picture shows a wind turbine, do you know where the first modern turbines where built?",
+        correctAnswer: "Vermont",
+        incorrectAnswers: ["Italy", "Mexico", "South Africa"],
+    },
+]
+
+//These are the Hard Questions//
