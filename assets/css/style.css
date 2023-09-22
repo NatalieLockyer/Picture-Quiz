@@ -24,6 +24,7 @@ header {
 
 h1 {
     font-size: 3rem;
+    letter-spacing: 0.3rem;
     text-align: center;
 }
 
@@ -33,13 +34,14 @@ main {
 
 .container {
     background-color: white;
-    width: 350px;
+    width: 325px;
     height: 500px;
 }
 
 .welcome {
     text-align: center;
     font-size: 1.5rem;
+    letter-spacing: 0.3rem;
     padding: 10px 10px;
 }
 
@@ -52,7 +54,7 @@ main {
     padding: 5px 10px;
     background-color: lightgray;
     font-size: 1rem;
-     font-family: 'Shadows Into Light', cursive;
+    font-family: 'Shadows Into Light', cursive;
     font-weight: bold;
     letter-spacing: 0.3rem;
 }
@@ -91,4 +93,26 @@ main {
 
 footer {
     margin-top: auto;
+}
+
+#social-media {
+    text-align: center;
+    padding: 10px 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-media li {
+    font-size: 20px;
+}
+
+#social-media a {
+    color: black;
+}
+
+.copyright {
+    background-color: pink;
+    text-align: center;
+    letter-spacing: 0.3rem;
 }
