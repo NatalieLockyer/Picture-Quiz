@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Picture Quiz</title>
 
-    <link rel="stylesheet" href="assets/css/style.css">
     <!--Links to Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
     <!--Font awesome Kit  -->
     <script src="https://kit.fontawesome.com/3ad1443fbb.js" crossorigin="anonymous"></script>
+    <!--Link to CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+    <script type="module" src="assets/js/script.js"></script>
 
     <header>
         <h1>The Picture Quiz!</h1>
@@ -25,6 +27,7 @@
         <div class="container">
             <p class="welcome">Welcome to the Picture Quiz!</p>
 
+            <!--How to play Button-->
             <div class="how-to-play">
                 <button class="btn-how-to-play">How to Play</button>
             </div>
@@ -34,20 +37,27 @@
                 and select the level you wish to play
             </p>
 
+            <!--Player to enter name - required-->
             <div class="player-name">
                 <label for="name-field" class="name-label">Players Name:</label>
                 <input id="name-field" type="text" name="player_name" placeholder="Enter here" required>
             </div>
 
+            <!--Button for Questions-->
             <div class="btn-level-style">
+                <!--Easy Questions-->
                 <button id="easy-questions" class="level">Easy</button>
 
+                <!--Medium Questions-->
                 <button id="medium-questions" class="level">Medium</button>
 
+                <!--Hard Questions-->
                 <button id="hard-questions" class="level">Hard</button>
             </div>
 
         </div>
+
+
     </main>
 
     <footer>
@@ -73,8 +83,6 @@
         </ul>
         <p class="copyright"> Created by Natalie Lockyer - Copyright Protected 2023</p>
     </footer>
-
-    <link rel="stylesheet" href="assets/js/script.js">
 </body>
 
 </html>

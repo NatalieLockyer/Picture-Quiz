@@ -116,3 +116,41 @@ footer {
     text-align: center;
     letter-spacing: 0.3rem;
 }
+
+.lightbox {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 90vw;
+    min-height: 65vh;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.lightbox__inner {
+    position: relative;
+    width: 80%;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.lightbox__close {
+    background: none;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 10px;
+    font-size: 35px;
+    cursor: pointer;
+    color: rgba (0, 0, 0, 0.5);
+}
+
+.lightbox__close:hover {
+    font-weight: 700;
+}
