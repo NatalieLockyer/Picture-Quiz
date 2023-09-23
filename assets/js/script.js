@@ -221,12 +221,14 @@ let hardQuestions = [
     },
 ]
 
-//HOMEPAGE - Light box for "How to Play instructions"
+//HOMEPAGE - Lightbox for "How to Play instructions"
 
 import lightbox from "./lightbox.js"
 
-lightbox.activate();
+//lightbox.activate();
 
-const howToPlayBtn = document.getElementsByClassName("btn-how-to-play");
-
-lightbox.show("<h1>How to Play<br></h1><ul><li>Enter your username and select your level</li><li>Look at the image and read the question</li><li>Choose you answer</li><li>Correct answers appear in'Correct Answer'</li><li>Incorrect answers appear in 'Incorrect answer'</li><li>After answering 5 question, you will get an alert with your total score.</li><li> Good Luck :-)</li></ul>");
+const howToPlayBtn = document.querySelector(".btn-how-to-play");
+howToPlayBtn.onclick = () => {
+    lightbox.activate()
+    lightbox.show("<h1>How to Play<br></h1><ul><li>Enter your username and select your level</li><li>Look at the image and read the question</li><li>Choose you answer</li><li>Correct answers appear in'Correct Answer'</li><li>Incorrect answers appear in 'Incorrect answer'</li><li>After answering 5 question, you will get an alert with your total score.</li><li> Good Luck :-)</li></ul>");
+};
