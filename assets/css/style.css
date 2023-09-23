@@ -136,6 +136,13 @@ footer {
     position: relative;
     width: 60%;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    padding: 20px
 }
 
 .lightbox__close {
