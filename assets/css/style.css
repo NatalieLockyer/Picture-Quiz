@@ -91,32 +91,6 @@ main {
     background-color: lightgray;
 }
 
-footer {
-    margin-top: auto;
-}
-
-#social-media {
-    text-align: center;
-    padding: 10px 0 0 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
-
-#social-media li {
-    font-size: 20px;
-}
-
-#social-media a {
-    color: black;
-}
-
-.copyright {
-    background-color: pink;
-    text-align: center;
-    letter-spacing: 0.3rem;
-}
-
 .lightbox {
     position: fixed;
     top: 50%;
@@ -160,4 +134,30 @@ ul {
 
 .lightbox__close:hover {
     font-weight: 700;
+}
+
+footer {
+    margin-top: auto;
+}
+
+#social-media {
+    text-align: center;
+    padding: 10px 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-media li {
+    font-size: 20px;
+}
+
+#social-media a {
+    color: black;
+}
+
+.copyright {
+    background-color: pink;
+    text-align: center;
+    letter-spacing: 0.3rem;
 }
