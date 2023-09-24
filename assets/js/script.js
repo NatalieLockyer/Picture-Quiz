@@ -222,11 +222,9 @@ let hardQuestions = [
 ]
 
 //HOMEPAGE - Lightbox for "How to Play instructions"
-
 import lightbox from "./lightbox.js"
 
 //lightbox.activate();
-
 const howToPlayBtn = document.querySelector(".btn-how-to-play");
 howToPlayBtn.onclick = () => {
     lightbox.activate()

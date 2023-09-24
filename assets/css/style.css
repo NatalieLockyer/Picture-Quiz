@@ -41,6 +41,7 @@ main {
 .welcome {
     text-align: center;
     font-size: 1.5rem;
+    font-weight: bold;
     letter-spacing: 0.3rem;
     padding: 10px 10px;
 }
@@ -63,11 +64,13 @@ main {
     padding: 20px;
     text-align: center;
     font-size: 1rem;
+    font-weight: bold;
     letter-spacing: 0.1rem;
 }
 
 .player-name {
     font-size: 1rem;
+    font-weight: bold;
     letter-spacing: 0.1rem;
     text-align: center;
     padding: 20px;
