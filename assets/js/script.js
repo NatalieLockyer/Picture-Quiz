@@ -230,5 +230,5 @@ import lightbox from "./lightbox.js"
 const howToPlayBtn = document.querySelector(".btn-how-to-play");
 howToPlayBtn.onclick = () => {
     lightbox.activate()
-    lightbox.show("<h1>How to Play<br></h1><ul><li>Enter your username and select your level</li><li>Look at the image and read the question</li><li>Choose your answer</li><li>Correct answers appear in 'Correct Answers'</li><li>Incorrect answers appear in 'Incorrect answer'</li><li>After answering 5 questions, you will get an alert with your total score.</li><li> Good Luck :-)</li></ul>");
+    lightbox.show("<h1>How to Play<br></h1><ol><li>Enter your username and select your level</li><li>Look at the image and read the question</li><li>Choose your answer</li><li>Correct answers appear in 'Correct Answers'</li><li>Incorrect answers appear in 'Incorrect answer'</li><li>After answering 5 questions, you will get an alert with your total score.</li><li> Good Luck :-)</li></ol>");
 };
