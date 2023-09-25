@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 
-
+/*Homepage styling*/
 body {
     min-height: 100vh;
     background-color: pink;
@@ -94,6 +94,8 @@ main {
     background-color: lightgray;
 }
 
+/* Styling for "how to play" lightbox*/
+
 .lightbox {
     position: fixed;
     top: 50%;
@@ -120,9 +122,16 @@ main {
     padding: 30px;
     font-weight: bold;
     letter-spacing: 0.1rem;
+    text-align: center;
 }
 
-ul {
+.lightbox__content ol {
+    text-align: left;
+    display: inline-block;
+    padding-left: 20%;
+}
+
+ol {
     display: flex;
     flex-direction: column;
     padding: 20px
@@ -145,6 +154,7 @@ ul {
     font-weight: 700;
 }
 
+/*Footer Styling*/
 footer {
     margin-top: auto;
 }

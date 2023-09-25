@@ -221,7 +221,7 @@ let hardQuestions = [
     },
 ]
 
-//HOMEPAGE - Lightbox for "How to Play instructions"
+//HOMEPAGE - Lightbox for "How to Play instructions - Code referenced in ReadME"
 import lightbox from "./lightbox.js"
 
 //lightbox.activate();

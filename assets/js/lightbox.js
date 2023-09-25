@@ -6,7 +6,7 @@ export default class lightbox {
                     <button type="button" class="lightbox__close">
                         &times;
                     </button>
-                    <div class ="lightbox__content">
+                    <div class ="lightbox__inner lightbox__content">
                     How to Play
                     </div>
                 </div>
